@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\srouce\framework\src\Tst_Group.c" />
+    <ClCompile Include="..\..\..\srouce\framework\src\Tst_Framework.c" />
+    <ClCompile Include="..\..\..\srouce\main.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\alm\callback.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\alm\lic_inc.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\memory\os_memory.c" />
+    <ClCompile Include="..\..\..\srouce\test\common\test_common.c" />
+    <ClCompile Include="..\..\..\srouce\test\common\test_stru_lic.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_alarm.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_emstarttimes.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_disable.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_key_alg.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_em.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_ger.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_parser_v2.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_parser_v3.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_stick.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_persistence_wr.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_per_temp_bbommin.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_prd_mgr.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_store.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_prd_store.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_ps_store_lic_and_prd.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_safetime.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_state_mgr.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_any_demo.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_store_tree.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_temp.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\linux\os_date_linux.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\os_date.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\win32\os_date_win32.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\linux\os_mutex_linux.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\win32\os_mutex_win32.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\os.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\thread\os_thread.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\linux\os_timer_linux.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\os_timer.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\win32\os_timer_win32.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_Group.h" />
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_Framework.h" />
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_FrameWrkMacro.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\alm\callback.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\alm\lic_inc.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\memory\os_memory.h" />
+    <ClInclude Include="..\..\..\srouce\test\common\test_common.h" />
+    <ClInclude Include="..\..\..\srouce\test\common\test_stru_lic.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_alarm.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_emstarttimes.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_disable.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_key_alg.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_em.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_ger.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_parser_v2.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_parser_v3.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_stick.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_persistence_wr.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_per_temp_bbommin.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_prd_mgr.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_store.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_prd_store.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_ps_store_lic_and_prd.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_safetime.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_state_mgr.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_store_tree.h" />
+    <ClInclude Include="..\..\..\srouce\test\groups\group_any_demo.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\date\os_date.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\def.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex_base.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\os.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\thread\os_thread.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\timer\os_timer.h" />
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\srouce\test\groups\group_config.inc" />
+    <None Include="memory_leak_report.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\build\win32_VS2010_MT\projects\LICENSE_CBB.vcxproj">
+      <Project>{b81d436c-6751-41f8-b195-947859618c9e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}</ProjectGuid>
+    <RootNamespace>alm_ut</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\bin\platform\win32_vc10\exec\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>..\..\..\bin\platform\win32_vc10\obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\bin\platform\win32_vc10\exec\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>..\..\..\bin\platform\win32_vc10\obj\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)r</TargetName>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\srouce\test\adapter\os\timer;..\..\..\srouce\test\adapter\os\thread;..\..\..\srouce\test\adapter\os\mutex;..\..\..\srouce\test\adapter\os\memory;..\..\..\srouce\test\adapter\os\date;..\..\..\srouce\test\adapter\os;..\..\..\srouce\test\groups;..\..\..\srouce\test\adapter\alm;..\..\..\srouce\test\common;..\..\..\srouce\test;..\..\..\srouce\framework\src;..\..\..\srouce\framework\include;..\..\..\..\..\include;..\..\..\..\..\src\debug;..\..\..\..\..\src\debug\XML;..\..\..\..\..\src\lic_mgr;..\..\..\..\..\src\lic_mgr\common;..\..\..\..\..\src\lic_mgr\dflt_lic;..\..\..\..\..\src\lic_mgr\emergency;..\..\..\..\..\src\lic_mgr\general;..\..\..\..\..\src\lic_mgr\stick;..\..\..\..\..\src\lic_parser;..\..\..\..\..\src\lic_parser\common;..\..\..\..\..\src\lic_parser\parser_v2;..\..\..\..\..\src\lic_parser\parser_v3;..\..\..\..\..\src\lic_store;..\..\..\..\..\src\persistence;..\..\..\..\..\src\prd_mgr;..\..\..\..\..\src\common\safetime;..\..\..\..\..\src\common;..\..\..\..\..\src\state_mgr;..\..\..\..\..\src\state_mgr\alarm_notify;..\..\..\..\..\src\state_mgr\check;..\..\..\..\..\src\state_mgr\common;..\..\..\..\..\src\state_mgr\license;..\..\..\..\..\src\state_mgr\license_bbom;..\..\..\..\..\src\state_mgr\prd;..\..\..\..\..\src\state_mgr\prd_bbom;..\..\..\..\..\src\tables;..\..\..\..\..\src\tables\lic;..\..\..\..\..\src\tables\lic\lic_addtion;..\..\..\..\..\src\tables\lic\lic_base;..\..\..\..\..\src\tables\lic\lic_base\lic_esn;..\..\..\..\..\src\tables\lic\lic_bbom;..\..\..\..\..\src\tables\lic\lic_sbom;..\..\..\..\..\src\tables\product;..\..\..\..\..\src\tables\ps;..\..\..\..\..\src\tables\state;..\..\..\..\..\src\common\alg;..\..\..\..\..\src\common\alg\base;..\..\..\..\..\src\common\alg\base\core;..\..\..\..\..\src\common\alg\base\core\aes;..\..\..\..\..\src\common\alg\base\core\dsa;..\..\..\..\..\src\common\alg\base\core\bn;..\..\..\..\..\src\common\alg\base\core\ec2n;..\..\..\..\..\src\common\alg\base\core\hash;..\..\..\..\..\src\common\alg\base\core\include;..\..\..\..\..\src\common\alg\base\core\prime;..\..\..\..\..\src\common\alg\base\core\rng;..\..\..\..\..\src\common\alg\base\head;..\..\..\..\..\src\common\alg\base\src;..\..\..\..\..\src\common\alg\common;..\..\..\..\..\src\common\alg\key;..\..\..\..\..\src\common\store;..\..\..\..\..\src\common\table_store;..\..\..\..\..\src\common\table_store\interface;..\..\..\..\..\src\common\table_store\persistence;..\..\..\..\..\src\common\table_store\realize;..\..\..\..\..\src\common\table_store\realize\col;..\..\..\..\..\src\common\table_store\realize\common;..\..\..\..\..\src\common\table_store\realize\row;..\..\..\..\..\src\common\table_store\realize\table_obj;..\..\..\..\..\src\common\table_store\realize\table_store;..\..\..\..\..\src\common\tool_base;..\..\..\..\..\src\common\tool_base\base;..\..\..\..\..\src\common\tool_base\base\secure;..\..\..\..\..\src\common\tool_base\base\secure\realize;..\..\..\..\..\src\common\tool_base\log;..\..\..\..\..\src\common\tool_base\os\time;..\..\..\..\..\src\common\tool_base\os;..\..\..\..\..\src\common\tool_base\os\memory;..\..\..\..\..\src\persistence\tables\license;..\..\..\..\..\src\persistence\tables\prd;..\..\..\..\..\src\persistence\tables\safetime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/wd4996 </AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CallingConvention>Cdecl</CallingConvention>
+      <PreprocessorDefinitions>_MBCS;LIC_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\srouce\test\adapter\os\timer;..\..\..\srouce\test\adapter\os\thread;..\..\..\srouce\test\adapter\os\mutex;..\..\..\srouce\test\adapter\os\memory;..\..\..\srouce\test\adapter\os\date;..\..\..\srouce\test\adapter\os;..\..\..\srouce\test\groups;..\..\..\srouce\test\adapter\alm;..\..\..\srouce\test\common;..\..\..\srouce\test;..\..\..\srouce\framework\src;..\..\..\srouce\framework\include;..\..\..\..\..\include;..\..\..\..\..\src\debug;..\..\..\..\..\src\debug\XML;..\..\..\..\..\src\lic_mgr;..\..\..\..\..\src\lic_mgr\common;..\..\..\..\..\src\lic_mgr\dflt_lic;..\..\..\..\..\src\lic_mgr\emergency;..\..\..\..\..\src\lic_mgr\general;..\..\..\..\..\src\lic_mgr\stick;..\..\..\..\..\src\lic_parser;..\..\..\..\..\src\lic_parser\common;..\..\..\..\..\src\lic_parser\parser_v2;..\..\..\..\..\src\lic_parser\parser_v3;..\..\..\..\..\src\lic_store;..\..\..\..\..\src\persistence;..\..\..\..\..\src\prd_mgr;..\..\..\..\..\src\common\safetime;..\..\..\..\..\src\common;..\..\..\..\..\src\state_mgr;..\..\..\..\..\src\state_mgr\alarm_notify;..\..\..\..\..\src\state_mgr\check;..\..\..\..\..\src\state_mgr\common;..\..\..\..\..\src\state_mgr\license;..\..\..\..\..\src\state_mgr\license_bbom;..\..\..\..\..\src\state_mgr\prd;..\..\..\..\..\src\state_mgr\prd_bbom;..\..\..\..\..\src\tables;..\..\..\..\..\src\tables\lic;..\..\..\..\..\src\tables\lic\lic_addtion;..\..\..\..\..\src\tables\lic\lic_base;..\..\..\..\..\src\tables\lic\lic_base\lic_esn;..\..\..\..\..\src\tables\lic\lic_bbom;..\..\..\..\..\src\tables\lic\lic_sbom;..\..\..\..\..\src\tables\product;..\..\..\..\..\src\tables\ps;..\..\..\..\..\src\tables\state;..\..\..\..\..\src\common\alg;..\..\..\..\..\src\common\alg\base;..\..\..\..\..\src\common\alg\base\core;..\..\..\..\..\src\common\alg\base\core\aes;..\..\..\..\..\src\common\alg\base\core\dsa;..\..\..\..\..\src\common\alg\base\core\bn;..\..\..\..\..\src\common\alg\base\core\ec2n;..\..\..\..\..\src\common\alg\base\core\hash;..\..\..\..\..\src\common\alg\base\core\include;..\..\..\..\..\src\common\alg\base\core\prime;..\..\..\..\..\src\common\alg\base\core\rng;..\..\..\..\..\src\common\alg\base\head;..\..\..\..\..\src\common\alg\base\src;..\..\..\..\..\src\common\alg\common;..\..\..\..\..\src\common\alg\key;..\..\..\..\..\src\common\store;..\..\..\..\..\src\common\table_store;..\..\..\..\..\src\common\table_store\interface;..\..\..\..\..\src\common\table_store\persistence;..\..\..\..\..\src\common\table_store\realize;..\..\..\..\..\src\common\table_store\realize\col;..\..\..\..\..\src\common\table_store\realize\common;..\..\..\..\..\src\common\table_store\realize\row;..\..\..\..\..\src\common\table_store\realize\table_obj;..\..\..\..\..\src\common\table_store\realize\table_store;..\..\..\..\..\src\common\tool_base;..\..\..\..\..\src\common\tool_base\base;..\..\..\..\..\src\common\tool_base\base\secure;..\..\..\..\..\src\common\tool_base\base\secure\realize;..\..\..\..\..\src\common\tool_base\log;..\..\..\..\..\src\common\tool_base\os\time;..\..\..\..\..\src\common\tool_base\os;..\..\..\..\..\src\common\tool_base\os\memory;C:\Program Files\Visual Leak Detector\include;..\..\..\..\..\src\persistence\tables\license;..\..\..\..\..\src\persistence\tables\prd;..\..\..\..\..\src\persistence\tables\safetime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/wd4996</AdditionalOptions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
