@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{f56f9775-e03a-43cd-b274-c31d4bdfb14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\src">
+      <UniqueIdentifier>{a3dd9350-cc8e-4567-9151-1c607d829ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include">
+      <UniqueIdentifier>{ebcab39f-0321-4686-a07d-6e0845cd5707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{645ef351-43c0-4848-bb30-91f94a424134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\common">
+      <UniqueIdentifier>{ff5182b4-2561-4957-bec4-a587a5e9a614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\groups">
+      <UniqueIdentifier>{3477d517-e143-49fc-b12d-474bb64b883b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\groups\include">
+      <UniqueIdentifier>{b9be13fc-6652-4ac5-829a-a5f5c429d51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\groups\src">
+      <UniqueIdentifier>{4cacf55d-62da-41d2-a460-8e8f300b2eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter">
+      <UniqueIdentifier>{6e1e662b-646e-41c4-9c98-e3295b4c8782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\alm">
+      <UniqueIdentifier>{94abc5aa-4334-4b31-86f9-84b884d90767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os">
+      <UniqueIdentifier>{b82cfbd0-e8b5-4991-90a6-65d7422b45f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\date">
+      <UniqueIdentifier>{59d73e26-1456-457d-8ed1-cd2e289776af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\date\win32">
+      <UniqueIdentifier>{da1d3828-9785-4e70-b2ab-2dddd9ddfeb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\date\linux">
+      <UniqueIdentifier>{9e906c00-c904-4f8c-bf55-3aa753cf2cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\memory">
+      <UniqueIdentifier>{10b70850-3ad1-4252-abf1-822028815856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\mutex">
+      <UniqueIdentifier>{4f11843c-ab72-4e47-9368-870d5851bb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\mutex\win32">
+      <UniqueIdentifier>{c1c44390-3999-495e-8a21-f1d8a0cd211d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\mutex\linux">
+      <UniqueIdentifier>{1b1e2291-a3f8-4dbe-a92f-06b19886cfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\thread">
+      <UniqueIdentifier>{45109632-e422-49dd-937b-7b3fba1b45f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\timer">
+      <UniqueIdentifier>{359d9f42-ea9e-43c2-a38a-3d0135eb7e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\timer\win32">
+      <UniqueIdentifier>{5aba0a3e-006a-4f4d-a230-efd603aec270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\adapter\os\timer\linux">
+      <UniqueIdentifier>{bd6abad8-2882-4d4d-945f-3bd5be261ef4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\srouce\framework\src\Tst_Framework.c">
+      <Filter>framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\framework\src\Tst_Group.c">
+      <Filter>framework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\common\test_common.c">
+      <Filter>test\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\main.c" />
+    <ClCompile Include="..\..\..\srouce\test\groups\group_prd_mgr.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\common\test_stru_lic.c">
+      <Filter>test\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_store.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_prd_store.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_stick.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_persistence_wr.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_em.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_parser_v3.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_state_mgr.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_parser_v2.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_key_alg.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_lic_ger.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\alm\callback.c">
+      <Filter>test\adapter\alm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\alm\lic_inc.c">
+      <Filter>test\adapter\alm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\os.c">
+      <Filter>test\adapter\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\os_date.c">
+      <Filter>test\adapter\os\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\linux\os_date_linux.c">
+      <Filter>test\adapter\os\date\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\date\win32\os_date_win32.c">
+      <Filter>test\adapter\os\date\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex.c">
+      <Filter>test\adapter\os\mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\win32\os_mutex_win32.c">
+      <Filter>test\adapter\os\mutex\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\mutex\linux\os_mutex_linux.c">
+      <Filter>test\adapter\os\mutex\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\thread\os_thread.c">
+      <Filter>test\adapter\os\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\os_timer.c">
+      <Filter>test\adapter\os\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\linux\os_timer_linux.c">
+      <Filter>test\adapter\os\timer\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\timer\win32\os_timer_win32.c">
+      <Filter>test\adapter\os\timer\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\util.c">
+      <Filter>test\adapter\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_any_demo.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_alarm.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_safetime.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_emstarttimes.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_disable.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_per_temp_bbommin.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_ps_store_lic_and_prd.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_store_tree.c">
+      <Filter>test\groups\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\srouce\test\groups\group_temp.c" />
+    <ClCompile Include="..\..\..\srouce\test\adapter\os\memory\os_memory.c">
+      <Filter>test\adapter\os\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_Framework.h">
+      <Filter>framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_FrameWrkMacro.h">
+      <Filter>framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\framework\include\Tst_Group.h">
+      <Filter>framework\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\common\test_common.h">
+      <Filter>test\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_prd_mgr.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\common\test_stru_lic.h">
+      <Filter>test\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_prd_store.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_store.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_stick.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_persistence_wr.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_em.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_parser_v3.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_state_mgr.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_parser_v2.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_key_alg.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_store_tree.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_lic_ger.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\alm\callback.h">
+      <Filter>test\adapter\alm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\alm\lic_inc.h">
+      <Filter>test\adapter\alm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\def.h">
+      <Filter>test\adapter\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\os.h">
+      <Filter>test\adapter\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\date\os_date.h">
+      <Filter>test\adapter\os\date</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex.h">
+      <Filter>test\adapter\os\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\mutex\os_mutex_base.h">
+      <Filter>test\adapter\os\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\thread\os_thread.h">
+      <Filter>test\adapter\os\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\timer\os_timer.h">
+      <Filter>test\adapter\os\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\util.h">
+      <Filter>test\adapter\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_any_demo.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_alarm.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_safetime.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_emstarttimes.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_disable.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_per_temp_bbommin.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\groups\group_ps_store_lic_and_prd.h">
+      <Filter>test\groups\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\srouce\test\adapter\os\memory\os_memory.h">
+      <Filter>test\adapter\os\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="memory_leak_report.txt" />
+    <None Include="..\..\..\srouce\test\groups\group_config.inc" />
+  </ItemGroup>
+</Project>
