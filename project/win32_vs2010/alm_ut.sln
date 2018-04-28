@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "alm_ut", "project\alm_ut.vcxproj", "{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B81D436C-6751-41F8-B195-947859618C9E} = {B81D436C-6751-41F8-B195-947859618C9E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LICENSE_CBB", "..\..\..\..\build\win32_VS2010_MT\projects\LICENSE_CBB.vcxproj", "{B81D436C-6751-41F8-B195-947859618C9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}.Debug|Win32.Build.0 = Debug|Win32
+		{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}.Release|Win32.ActiveCfg = Release|Win32
+		{8CBADEB6-80FF-4D62-BA65-7A9183FD508C}.Release|Win32.Build.0 = Release|Win32
+		{B81D436C-6751-41F8-B195-947859618C9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B81D436C-6751-41F8-B195-947859618C9E}.Debug|Win32.Build.0 = Debug|Win32
+		{B81D436C-6751-41F8-B195-947859618C9E}.Release|Win32.ActiveCfg = Release|Win32
+		{B81D436C-6751-41F8-B195-947859618C9E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
